@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-35698248-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-35698248-1');
+    </script>
+
+	<title>Desarrollo web &ndash; DACODE</title>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="dns-prefetch" href="//c0.wp.com">
+<link rel="alternate" type="application/rss+xml" title="DACODE &raquo; Feed" href="https://www.dacode.es/feed/">
+<link rel="alternate" type="application/rss+xml" title="DACODE &raquo; Feed de los comentarios" href="https://www.dacode.es/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="DACODE &raquo; Categor&iacute;a Desarrollo web del feed" href="https://www.dacode.es/soluciones/desarrollo-web/feed/">
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.dacode.es\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.9.3"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="https://c0.wp.com/c/5.9.3/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<style id="wp-block-library-inline-css" type="text/css">
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel="stylesheet" id="mediaelement-css" href="https://c0.wp.com/c/5.9.3/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-mediaelement-css" href="https://c0.wp.com/c/5.9.3/wp-includes/js/mediaelement/wp-mediaelement.min.css" type="text/css" media="all">
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel="stylesheet" href="css/minify-c47ad.css" media="all">
+
+
+
+<link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/10.5/css/jetpack.css" type="text/css" media="all">
+<link rel="https://api.w.org/" href="https://www.dacode.es/wp-json/"><link rel="alternate" type="application/json" href="https://www.dacode.es/wp-json/wp/v2/categories/10"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.dacode.es/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.dacode.es/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.9.3">
+<link rel="alternate" hreflang="es-ES" href="https://www.dacode.es/soluciones/desarrollo-web/">
+<link rel="alternate" hreflang="es" href="https://www.dacode.es/soluciones/desarrollo-web/">
+<link rel="alternate" hreflang="en-US" href="https://www.dacode.es/en/soluciones/desarrollo-web/">
+<link rel="alternate" hreflang="en" href="https://www.dacode.es/en/soluciones/desarrollo-web/">
+<style type="text/css">img#wpstats{display:none}</style>
+			<style type="text/css">
+					.site-title,
+			.site-description {
+				position: absolute;
+				clip: rect(1px, 1px, 1px, 1px);
+			}
+				</style>
+					<style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style>
+			<script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script>
+		<link rel="icon" href="favicons/05-favicon.png" sizes="32x32">
+<link rel="icon" href="favicons/05-favicon.png" sizes="192x192">
+<link rel="apple-touch-icon" href="favicons/05-favicon.png">
+<meta name="msapplication-TileImage" content="https://www.dacode.es/you_shall_not_pass/uploads/2019/05/favicon.png">
+</head>
+
+<body class="archive category category-desarrollo-web category-10 wp-custom-logo translatepress-es_ES hfeed no-sidebar">
+
+<div class="overlay"></div>
+
+
+<div class="page-transition show">
+    <div id="l1">
+        <div class="loader">
+    <div class="circular-loader">
+        <svg viewbox="25 25 50 50">
+            <circle class="loader-path" cx="50" cy="50" r="20" fill="none" stroke="#1F96FF" stroke-width="2"></circle>
+        </svg>
+    </div>
+</div>
+
+<style>
+    .circular-loader {
+        -webkit-animation: rotate 2s linear infinite;
+                animation: rotate 2s linear infinite;
+        -webkit-transform-origin: center center;
+            -ms-transform-origin: center center;
+                transform-origin: center center;
+        height: 120px;
+        width: 120px;
+        position: absolute;
+        top: calc(50% - 60px);
+        left: calc(50% - 60px);
+    }
+
+    .loader-path {
+        stroke-dasharray: 150,200;
+        stroke-dashoffset: -10;
+        -webkit-animation: dash 1.5s ease-in-out infinite;
+                animation: dash 1.5s ease-in-out infinite;
+        stroke-linecap: round;
+    }
+
+    @-webkit-keyframes rotate {
+        100% {
+            -webkit-transform: rotate(360deg);
+                    transform: rotate(360deg);
+        }
+    }
+
+    @keyframes rotate {
+        100% {
+            -webkit-transform: rotate(360deg);
+                    transform: rotate(360deg);
+        }
+    }
+    @-webkit-keyframes dash {
+        0% {
+            stroke-dasharray: 1,200;
+            stroke-dashoffset: 0;
+        }
+        50% {
+            stroke-dasharray: 89,200;
+            stroke-dashoffset: -35;
+        }
+        100% {
+            stroke-dasharray: 89,200;
+            stroke-dashoffset: -124;
+        }
+    }
+    @keyframes dash {
+        0% {
+            stroke-dasharray: 1,200;
+            stroke-dashoffset: 0;
+        }
+        50% {
+            stroke-dasharray: 89,200;
+            stroke-dashoffset: -35;
+        }
+        100% {
+            stroke-dasharray: 89,200;
+            stroke-dashoffset: -124;
+        }
+    }
+</style>
+    </div>
+    <div id="l2"></div>
+</div>
+
+<div id="page" class="site">
+    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+    
+    <div class="cursors">
+        <div class="cursor cursor--core"></div>
+        <div class="cursor cursor--outside"></div>
+    </div>
+
+	<header id="masthead" class="site-header say-hello">
+        <div class="container">
+            <div class="row justify-space-between align-center">
+                <div class="col site-branding">
+                    <a href="www.dacode.html" class="custom-logo-link" rel="home"><img src="images/05-logo_dacode.svg" class="custom-logo jetpack-lazy-image" alt="DACODE" data-lazy-src="https://www.dacode.es/you_shall_not_pass/uploads/2019/05/logo_dacode.svg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></a>                            <p class="site-title"><a href="www.dacode.html" rel="home" title="Dise&ntilde;o y desarrollo web">DACODE</a></p>
+                                                <p class="site-description">Dise&ntilde;o, desarrollo web y aplicaciones m&oacute;viles</p>
+                                    </div><!-- .site-branding -->
+
+                <nav id="site-navigation" class="col main-navigation">
+                    <button class="menu-toggle" target-toggle="site-navigation">
+                                                <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="menu-main-nav-container"><ul id="header-menu" class="menu"><li id="menu-item-138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138"><a href="soluciones.html">Soluciones</a></li>
+<li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-139"><a href="proyectos.html">Proyectos</a></li>
+<li id="menu-item-142" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-142"><a href="#" target-toggle="contact">Contacto</a></li>
+</ul></div>                </nav><!-- #site-navigation -->
+            </div>
+        </div>
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+
+            <!-- Service description -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-9">
+                        <header class="page-header">
+                            <h1 class="page-title">
+                                Desarrollo web                            </h1>
+                            <div class="archive-description">
+                                <p><strong>Dise&ntilde;o y desarrollo web</strong> responsive, blogs, contenidos a medida y plataformas e-commerce</p>
+                            </div>
+                        </header><!-- .page-header -->
+                    </div>
+        
+                    <section class="faqs" id="faqs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="faqs--items">
+                    <h2>Quiero un espacio para promocionar mi negocio</h2>
+<p>Si necesitas una herramienta de promoci&oacute;n, un blog donde poder generar contenidos y llegar a un mayor p&uacute;blico, nosotros te ayudamos. Gestiona tus propios contenidos de una forma c&oacute;moda e intuitiva.</p>
+<h2>Necesito una plataforma para vender mis productos</h2>
+<p>Crea, gestiona y vende tus productos online de forma sencilla, r&aacute;pida y c&oacute;moda, disponible las 24h para tus clientes.</p>
+<h2>Tengo un dise&ntilde;o, y quiero convertirlo en c&oacute;digo</h2>
+<p>Maquetaci&oacute;n y desarrollo, escalable, optimizado y enfocado al posicionamiento SEO. Trabajamos con componentes responsive, modularizados y reutilizables.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Crea tu tienda online</strong> y abre un nuevo <strong>canal de ventas</strong> sin l&iacute;mites, o da un impulso a la imagen de tu negocio con una <strong>web corporativa</strong> funcional y <strong>siempre actualizada</strong>.</p>
+<ul>
+<li>Contenidos a medida</li>
+<li>Registro completo de usuarios</li>
+<li>Canal de marketing directo</li>
+<li>Gesti&oacute;n automatizada del stock</li>
+</ul>
+                </div>
+
+                <a href="#" class="btn link" target-toggle="contact" title="&iquest;Hablamos?">
+                    &iquest;Hablamos?                </a>
+            </div>
+        </div>
+    </div>
+
+    </section>                </div>
+            </div>
+
+            <!-- Projects -->
+                <section class="last-projects" id="proyectos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 parallax">
+                    <h2>Casos de &eacute;xito</h2>
+                </div>
+
+                <div class="col-md-9 projects-grid">
+                    <div class="row">
+                                                    <div class="col-md-6 appear">
+                                
+<div class="projects-grid--item">
+	<article id="post-639" class="post-639 post type-post status-publish format-standard has-post-thumbnail hentry category-desarrollo-web category-diseno-ui-ux tag-branding tag-cms tag-ui tag-ux">
+		<header class="project-header">
+			<div class="followTheMouse">
+				<h2 class="project-title mouseParallax">A3E SETEC</h2>				<span class="cat-links"><a href="desarrollo-web.html" rel="category tag">Desarrollo web</a>, <a href="diseno-ui-ux.html" rel="category tag">Dise&ntilde;o UI / UX</a></span><span class="tags-links">Branding, CMS, UI, UX</span>			</div>
+		</header><!-- .project-header -->
+
+		<div class="project-content">
+			<a href="a3e-setec.html" rel="bookmark">
+				<div class="mouseParallax">
+										<div class="featured-img appear" style="background-image: url('https://www.dacode.es/you_shall_not_pass/uploads/2020/11/a3e-featured.png')"></div>
+				</div>
+			</a>
+		</div><!-- .project-content -->
+
+		<div class="project-background" style="background-color: #eefcfb"></div>
+	</article><!-- #post-639 -->
+</div>                            </div>
+                                                    <div class="col-md-6 appear">
+                                
+<div class="projects-grid--item">
+	<article id="post-198" class="post-198 post type-post status-publish format-standard has-post-thumbnail hentry category-desarrollo-web tag-cms">
+		<header class="project-header">
+			<div class="followTheMouse">
+				<h2 class="project-title mouseParallax">DOP Jabugo</h2>				<span class="cat-links"><a href="desarrollo-web.html" rel="category tag">Desarrollo web</a></span><span class="tags-links">CMS</span>			</div>
+		</header><!-- .project-header -->
+
+		<div class="project-content">
+			<a href="dop-jabugo.html" rel="bookmark">
+				<div class="mouseParallax">
+										<div class="featured-img appear" style="background-image: url('https://www.dacode.es/you_shall_not_pass/uploads/2019/07/dop-jabugo-featured.png')"></div>
+				</div>
+			</a>
+		</div><!-- .project-content -->
+
+		<div class="project-background" style="background-color: #d5cac2"></div>
+	</article><!-- #post-198 -->
+</div>                            </div>
+                                                    <div class="col-md-6 appear">
+                                
+<div class="projects-grid--item">
+	<article id="post-172" class="post-172 post type-post status-publish format-standard has-post-thumbnail hentry category-desarrollo-web tag-cms tag-ecommerce">
+		<header class="project-header">
+			<div class="followTheMouse">
+				<h2 class="project-title mouseParallax">Puressajondo</h2>				<span class="cat-links"><a href="desarrollo-web.html" rel="category tag">Desarrollo web</a></span><span class="tags-links">CMS, Ecommerce</span>			</div>
+		</header><!-- .project-header -->
+
+		<div class="project-content">
+			<a href="puressajondo.html" rel="bookmark">
+				<div class="mouseParallax">
+										<div class="featured-img appear" style="background-image: url('https://www.dacode.es/you_shall_not_pass/uploads/2019/07/puressa-featured.png')"></div>
+				</div>
+			</a>
+		</div><!-- .project-content -->
+
+		<div class="project-background" style="background-color: #000"></div>
+	</article><!-- #post-172 -->
+</div>                            </div>
+                                                    <div class="col-md-6 appear">
+                                
+<div class="projects-grid--item">
+	<article id="post-89" class="post-89 post type-post status-publish format-standard has-post-thumbnail hentry category-aplicaciones category-desarrollo-web category-diseno-ui-ux tag-branding tag-cms tag-conceptualizacion">
+		<header class="project-header">
+			<div class="followTheMouse">
+				<h2 class="project-title mouseParallax">ForeverYoung.travel</h2>				<span class="cat-links"><a href="aplicaciones.html" rel="category tag">Aplicaciones</a>, <a href="desarrollo-web.html" rel="category tag">Desarrollo web</a>, <a href="diseno-ui-ux.html" rel="category tag">Dise&ntilde;o UI / UX</a></span><span class="tags-links">Branding, CMS, Conceptualizaci&oacute;n</span>			</div>
+		</header><!-- .project-header -->
+
+		<div class="project-content">
+			<a href="foreveryoung-travel.html" rel="bookmark">
+				<div class="mouseParallax">
+										<div class="featured-img appear" style="background-image: url('https://www.dacode.es/you_shall_not_pass/uploads/2019/05/1.png')"></div>
+				</div>
+			</a>
+		</div><!-- .project-content -->
+
+		<div class="project-background" style="background-color: #B1EDE8"></div>
+	</article><!-- #post-89 -->
+</div>                            </div>
+                        
+                                            </div>
+                </div>
+            </div>
+        </div>
+
+            </section>
+
+        </main><!-- #main -->
+	</div><!-- #primary -->
+
+
+
+        
+            <!-- Contact button -->
+            <a href="#" target-toggle="contact" class="btn primary floating" id="cta_toggle" title="&iquest;Hablamos?">
+                
+                <img src="images/img-icon-contact.svg" alt="Contact Toggle Icon">
+            </a>
+
+            <section class="closure-section" id="contact">
+                <a href="#" target-toggle="contact" class="btn rounded white" title="Cerrar">
+                    <img src="images/img-icon-close--blue.svg" alt="Contact Toggle Icon">
+                </a>
+
+                <div class="vertical-align">
+                    <!-- Contact form -->
+                                            <div role="form" class="wpcf7" id="wpcf7-f379-o1" lang="es-ES" dir="ltr">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/soluciones/desarrollo-web/#wpcf7-f379-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="379">
+<input type="hidden" name="_wpcf7_version" value="5.5.3">
+<input type="hidden" name="_wpcf7_locale" value="es_ES">
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f379-o1">
+<input type="hidden" name="_wpcf7_container_post" value="0">
+<input type="hidden" name="_wpcf7_posted_data_hash" value="">
+</div>
+<div class="container soft-contact">
+<div class="row">
+<div class="col">
+<h2>&iexcl;Hola! &iquest;Empezamos algo nuevo? <a href="#" copytoclipboard>hola@dacode.es</a>
+<div class="tooltip followTheMouse">
+<div class="tooltip--copied" style="display: none;">&iexcl;Copiado! &#12471;</div>
+<div class="tooltip--copy">Escr&iacute;benos</div>
+</div>
+</h2>
+</div>
+</div>
+</div>
+<div class="wpcf7-response-output" aria-hidden="true"></div></form></div>                                    </div>
+            </section>
+        
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer">
+        <div class="container">
+            <div class="row justify-space-between">
+                <div class="col-sm-6 appear">
+                    <div class="site-branding">
+                                                <img src="images/img-logo_dacode--gray.svg" class="attachment-full size-full" alt="Logo DACODE">
+                                                <p class="site-description">Dise&ntilde;o, desarrollo web y aplicaciones m&oacute;viles.</p>
+                        <a href="https://www.cdmon.com/es/" target="_blank" class="promsite" title="Promoted site">
+                            <img src="images/img-CDmon_Nou_Logo.png" alt="Hosting promoted by CDMON">
+                        </a>
+                    </div>
+
+                    <div class="menu-rrss-nav-container"><ul id="rrss-menu" class="menu"><li id="menu-item-146" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146"><a target="_blank" rel="noopener" href="https://www.instagram.com/dacode_es/">I</a></li>
+<li id="menu-item-367" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-367"><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/davidherreragarcia/">L</a></li>
+</ul></div>                </div>
+
+                <div class="col-sm-6 appear">
+                    <div class="menu-footer-menu-container"><ul id="footer-menu" class="menu"><li id="menu-item-148" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-148"><a href="soluciones.html">Soluciones</a>
+<ul class="sub-menu">
+	<li id="menu-item-149" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-149"><a href="diseno-ui-ux.html">Dise&ntilde;o UI / UX</a></li>
+	<li id="menu-item-150" class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-150"><a href="desarrollo-web.html" aria-current="page">Desarrollo web</a></li>
+	<li id="menu-item-151" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-151"><a href="aplicaciones.html">Aplicaciones</a></li>
+	<li id="menu-item-631" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-631"><a href="transformacion-digital.html">Transformaci&oacute;n digital</a></li>
+</ul>
+</li>
+<li id="menu-item-147" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-147"><a href="soluciones.html">M&aacute;s</a>
+<ul class="sub-menu">
+	<li id="menu-item-145" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-145"><a href="#" target-toggle="contact">Contacto</a></li>
+	<li id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a href="metodologia.html">Metodolog&iacute;a</a></li>
+	<li id="menu-item-365" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-365"><a href="proyectos.html">Proyectos</a></li>
+	<li id="menu-item-140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-140"><a href="privacidad.html">Pol&iacute;tica de privacidad</a></li>
+</ul>
+</li>
+</ul></div>                </div>
+            </div>
+        </div>
+
+    </footer><!-- #colophon -->
+    
+    <section class="last-point">
+        <div class="last-action appear">
+            <div>
+
+                <!-- Next project -->
+                                    <!-- Contact email -->
+            
+        <small>&iquest;Tienes una idea?</small>
+        <a href="mailto:hola@dacode.es?subject=Tengo%20una%20idea%20de%20negocio" copytoclipboard target="_blank" title="Escribir a hola@dacode.es">hola@dacode.es</a>
+
+        <div class="tooltip followTheMouse">
+            <div class="tooltip--copied" style="display: none;">&iexcl;Copiado! &#12471;</div>
+            <div class="tooltip--copy">Escr&iacute;benos</div>
+        </div>
+                                </div>
+        </div>
+    </section>
+
+    <div class="scroll-progress"></div>
+</div><!-- #page -->
+
+<script src="js/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            let cust_login = document.getElementById("loginform");
+            if(cust_login !== null) {
+                var recaptcha_script = document.createElement('script');
+                recaptcha_script.setAttribute('src','https://www.google.com/recaptcha/api.js');
+                document.head.appendChild(recaptcha_script);                
+            }
+        </script>
+                <meta http-equiv="imagetoolbar" content="no"><!-- disable image toolbar (if any) -->
+        <script type="text/javascript">
+            /*<![CDATA[*/
+            document.oncontextmenu = function() {
+                return false;
+            };
+            document.onselectstart = function() {
+                if (event.srcElement.type != "text" && event.srcElement.type != "textarea" && event.srcElement.type != "password") {
+                    return false;
+                }
+                else {
+                    return true;
+                }
+            };
+            if (window.sidebar) {
+                document.onmousedown = function(e) {
+                    var obj = e.target;
+                    if (obj.tagName.toUpperCase() == 'SELECT'
+                            || obj.tagName.toUpperCase() == "INPUT"
+                            || obj.tagName.toUpperCase() == "TEXTAREA"
+                            || obj.tagName.toUpperCase() == "PASSWORD") {
+                        return true;
+                    }
+                    else {
+                        return false;
+                    }
+                };
+            }
+            document.ondragstart = function() {
+                return false;
+            };
+            /*]]>*/
+        </script>
+        <script type="text/javascript" src="js/vendor-regenerator-runtime.min.js" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="js/vendor-wp-polyfill.min.js" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/www.dacode.es\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+
+
+
+
+
+<script src="js/minify-8ab58.js"></script>
+
+<script type="text/javascript" id="jetpack-lazy-images-js-extra">
+/* <![CDATA[ */
+var jetpackLazyImagesL10n = {"loading_warning":"Las im\u00e1genes a\u00fan est\u00e1n cargando. Cancela la impresi\u00f3n y vuelve a intentarlo."};
+/* ]]> */
+</script>
+<script src="js/minify-0526d.js"></script>
+
+<script type="text/javascript" src="js/recaptcha-api.js" id="google-recaptcha-js"></script>
+<script src="js/e-202215.js" defer></script>
+<script>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:10.5',blog:'102650505',post:'0',tz:'2',srv:'www.dacode.es'} ]);
+	_stq.push([ 'clickTrackerInit', '102650505', '0' ]);
+</script>
+
+</body>
+</html><!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Almacenamiento en cach&eacute; de p&aacute;ginas con disk 
+Red de Entrega de Contenido v&iacute;a N/A
+Minimizado usando disk
+Cach&eacute; de base de datos 16/99 consultas en 0.047 segundos usando disk (Solicitud de ancho modification query)
+
+Served from: www.dacode.es @ 2022-04-14 17:54:16 by W3 Total Cache
+-->

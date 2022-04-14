@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="308px" height="310px" viewBox="0 0 308 310" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>solutions-shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="solutions-shape" transform="translate(2.046875, 1.628906)" stroke="#0D92FF" stroke-width="3">
+            <polygon id="Path-2" points="30.7753906 50.8007813 178.1875 0 303.726562 100.183594 258.113281 256.232422 108.707031 306.628906 0 204.158203"></polygon>
+            <path d="M219.259766,221.316406 L108.707031,306.628906 L44.2148438,187.117188 L155.685547,50.8007812 M219.259766,221.316406 L44.2148438,187.117188 L0,204.158203 L0,204.158203 L44.2148438,187.117188 L30.7753906,50.8007812 L155.685547,50.8007812" id="Shape"></path>
+            <path d="M178.147339,0.271118164 L155.916138,50.5875244" id="Line-6"></path>
+            <path d="M257.453125,255.871094 L219.453125,221.871094" id="Line-7"></path>
+        </g>
+    </g>
+</svg>
